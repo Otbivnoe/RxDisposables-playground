@@ -1,2 +1,10 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<playground version='6.0' target-platform='macos'/>
+<playground version='6.0' target-platform='macos' display-mode='raw' executeOnSourceChanges='false'>
+    <pages>
+        <page name='Untitled Page'/>
+        <page name='0. Content'/>
+        <page name='1.NopDisposable-Empty'/>
+        <page name='2.AnonymousDisposable-Create'/>
+        <page name='3.BinaryDisposable'/>
+    </pages>
+</playground>
