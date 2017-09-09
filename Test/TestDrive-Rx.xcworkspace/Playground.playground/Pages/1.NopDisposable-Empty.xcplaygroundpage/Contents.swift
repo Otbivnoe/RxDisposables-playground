@@ -19,7 +19,7 @@ example {
 
 example {
     let observable = Observable<Void>.create { observer -> Disposable in
-        /// some simple logic here without disposable logic
+        /// some simple logic here without disposable mechanism
         observer.onCompleted()
         return Disposables.create()
     }

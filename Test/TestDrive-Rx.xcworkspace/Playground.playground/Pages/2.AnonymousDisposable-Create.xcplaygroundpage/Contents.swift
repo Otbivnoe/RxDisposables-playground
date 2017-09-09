@@ -16,12 +16,15 @@ import RxSwift
 example {
     let observable = Observable<Void>.create { observer -> Disposable in
         // run request
+
         observer.onCompleted()
         return Disposables.create {
             // request.cancel()
+            print("disposed ☠️")
         }
     }
-    _ = observable.subscribe()
+
+    let disposable = observable.subscribe()
 }
 
 //: [Next](@next)

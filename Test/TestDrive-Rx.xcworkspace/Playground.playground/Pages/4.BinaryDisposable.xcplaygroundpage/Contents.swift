@@ -13,19 +13,15 @@
 import Foundation
 import RxSwift
 
-let disposable1 = Disposables.create {
-    print("disposed-1")
-}
-
-let disposable2 = Disposables.create {
-    print("disposed-2")
-}
+let disposable1 = Disposables.create { print("disposed-1 ☠️") }
+let disposable2 = Disposables.create { print("disposed-2 ☠️") }
 
 let binaryDisposable = Disposables.create(disposable1, disposable2)
 print(binaryDisposable.isDisposed)
 
 print("dispose")
 binaryDisposable.dispose()
+
 print(binaryDisposable.isDisposed)
 
 //: [Next](@next)
