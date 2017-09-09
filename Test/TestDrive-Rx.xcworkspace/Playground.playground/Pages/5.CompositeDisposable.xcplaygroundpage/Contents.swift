@@ -3,6 +3,8 @@
 import Foundation
 import RxSwift
 
+/// Represents a group of disposable resources that are disposed together.
+
 example("Simple dispose logic") {
     let disposable1 = Disposables.create { print("disposed-1 ☠️") }
     let disposable2 = Disposables.create { print("disposed-2 ☠️") }
@@ -50,4 +52,4 @@ example("Remove - disposable") {
 }
 
 
-//: [Next](@next)
+//: [6.RefCountDisposable](@next)

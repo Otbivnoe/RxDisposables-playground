@@ -27,4 +27,4 @@ example {
     let disposable = observable.subscribe()
 }
 
-//: [Next](@next)
+//: [3.BooleanDisposable](@next)

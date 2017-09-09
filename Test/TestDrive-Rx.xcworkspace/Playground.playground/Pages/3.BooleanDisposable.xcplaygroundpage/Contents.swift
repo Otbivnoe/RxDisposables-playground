@@ -4,11 +4,11 @@ import Foundation
 import RxSwift
 
 let disposable = BooleanDisposable()
-print(disposable.isDisposed)
+print("isDisposed = \(disposable.isDisposed)")
 
 print("dispose")
 disposable.dispose()
 
-print(disposable.isDisposed)
+print("isDisposed = \(disposable.isDisposed)")
 
-//: [Next](@next)
+//: [4.BinaryDisposable](@next)

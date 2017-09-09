@@ -1,7 +1,6 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 <playground version='6.0' target-platform='macos' display-mode='raw' executeOnSourceChanges='false'>
     <pages>
-        <page name='Untitled Page'/>
         <page name='0. Content'/>
         <page name='1.NopDisposable-Empty'/>
         <page name='2.AnonymousDisposable-Create'/>
@@ -9,5 +8,8 @@
         <page name='4.BinaryDisposable'/>
         <page name='5.CompositeDisposable'/>
         <page name='6.RefCountDisposable'/>
+        <page name='7.ScheduledDisposable'/>
+        <page name='8.SerialDisposable'/>
+        <page name='9.SingleAssignmentDisposable'/>
     </pages>
 </playground>
