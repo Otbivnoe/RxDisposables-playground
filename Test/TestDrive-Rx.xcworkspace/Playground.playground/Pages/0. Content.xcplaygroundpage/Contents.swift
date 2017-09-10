@@ -1,6 +1,6 @@
 
 /*:
-  ## Table of Contents:
+  ## Table of Contents([Disposables](http://www.introtorx.com/content/v1.0.10621.0/20_Disposables.html)):
  - [NopDisposable-Empty](1.NopDisposable-Empty)
  - [AnonymousDisposable-Create(action)](2.AnonymousDisposable-Create)
  - [BooleanDisposable](3.BooleanDisposable)
